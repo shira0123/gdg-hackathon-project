@@ -6,7 +6,6 @@ import torch
 # Initialize FastAPI app
 app = FastAPI(title="Hate Speech Detection API")
 
-# Load model and tokenizer
 model_path = "./fine_tuned_hate_speech_model"
 tokenizer = DistilBertTokenizer.from_pretrained(model_path)
 model = DistilBertForSequenceClassification.from_pretrained(model_path)
