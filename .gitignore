@@ -10,3 +10,4 @@ venv/
 "pyvenv.cfg" 
 "share/" 
 "pyvenv.cfg" 
+"fine_tuned_hate_speech_model/pytorch_model.bin" 
