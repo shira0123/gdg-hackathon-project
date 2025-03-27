@@ -1,0 +1,21 @@
+# Ignore all files by default
+*
+
+# Allow specific files and directories
+!datasets/
+!fine_tuned_hate_speech_model/
+!train.py
+!main.py
+!requirements.txt
+!.gitignore
+
+# Ignore common virtual environment and dependency files
+__pycache__/
+Lib/
+Include/
+Scripts/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
