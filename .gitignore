@@ -7,3 +7,5 @@ venv/
 *.pyo
 *.pyd
 *.env
+"pyvenv.cfg" 
+"share/" 
